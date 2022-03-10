@@ -7,10 +7,13 @@
 		 url('../fonts/privateerregular.svg#wf') format('svg');
 }
 
-.raleway {
-	font-family: 'Raleway', sans-serif;
+body {
+	font-family: 'Syne Mono', sans-serif;
 }
 
+.synemono {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 :root {
 	--minh: 98vh;
@@ -19,13 +22,13 @@
   }
   
   html {
-	font-size: 60px;
+	font-size: 30px;
   }
   
   
   .curtain {
 	/** create the "split" background **/
-	background-image: linear-gradient(to bottom, var(--color2) 50%, var(--color1) 50%);
+	background-image: linear-gradient(to bottom, var(--color2) 40%, var(--color1) 50%);
   }
   
   /** add extra space to the bottom (need this for the "sticky" effect) **/
@@ -59,4 +62,41 @@
 	color: var(--color1);
   }
 
+  .necho-word {
+	  font-size: 4rem;
+	  text-align: center;
+  }
+
+  .heart {
+	  position: relative;
+	  width: 100 px;
+	  height: 90px;
+  }
+
+  .heart:before,
+  .heart:after {
+	  position: absolute;
+	  content: "";
+	  left: 50px;
+	  top: 0;
+	  width: 50px;
+	  height: 80px;
+	  background: red;
+	  border-radius: 50px 50px 0 0;
+	  transform: rotate(-45deg);
+	  transform-origin: 0 100%;
+  }
+
+  .heart:after {
+	  left: 0;
+	  transform: rotate(-45deg);
+	  transform-origin: 0 100%;
+	  text-align: center;
+  }
+
+  .maddy-div {
+	  max-width: 800px;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
   
