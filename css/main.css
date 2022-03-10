@@ -7,30 +7,14 @@
 		 url('../fonts/privateerregular.svg#wf') format('svg');
 }
 
-body {
-	font-family: 'Merriweather', serif;
-}
-
-.privateer {
-	font-family: "Privateer", serif;
-}
-
-h1 {
-  font-family: "Privateer", serif;
-}
-
-.section-title {
-  font-family: "Privateer", serif;
-}
-
 .raleway {
 	font-family: 'Raleway', sans-serif;
 }
 
 
-.root {
+:root {
 	--minh: 98vh;
-	--color1: wheat;
+	--color1: rgb(192, 21, 192);
 	--color2: midnightblue;
   }
   
