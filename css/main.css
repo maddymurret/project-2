@@ -9,6 +9,7 @@
 
 body {
 	font-family: 'Syne Mono', sans-serif;
+	margin-bottom: 200px;
 }
 
 .synemono {
@@ -63,12 +64,18 @@ body {
   }
 
   .maddy-word {
-	  font-size: 4rem;
+	  font-size: 3rem;
 	  text-align: center;
   }
   
   .invert {
-	max-width: 900px;
+	font-size: 1.25rem;
+	text-align: center;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto; 
+  }
+
+  .juice {
+	  background-image: url(../img/juice.jpg);
   }
