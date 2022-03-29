@@ -77,7 +77,10 @@ body {
   }
 
   .img-juice {
-	  background-color: black;
 	  background-image: url(../img/juice.jpg);
 	  position: relative;
+  }
+
+  .body {
+	  background-color: black;
   }
