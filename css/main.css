@@ -76,6 +76,7 @@ body {
 	margin-right: auto; 
   }
 
-  .juice {
+  .img-juice {
 	  background-image: url(../img/juice.jpg);
+	  position: relative;
   }
